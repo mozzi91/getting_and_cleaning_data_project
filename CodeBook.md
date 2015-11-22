@@ -3,6 +3,7 @@ This code book provides a summary of the variables for the tidyMeans dataset and
 
 ## Identifiers
 These variables identify the unique subject and activity each of the measurements relate.
+
 	- Subject: the subject ID as an integer
 	- Activity: the activity name as a string:
 		- Walking
@@ -14,6 +15,7 @@ These variables identify the unique subject and activity each of the measurement
 
 ## Measurements
 All variables are the mean value of the corresponding measurement for each subject and each activity. Values are floating point numbers.
+
 Where a variable starts with "Time" or "Frequency" that variable captures the time and frequency respectively of the measurement.
 Where a variable contains "Mean" or "StdDev" that variable is the mean or standard deviation of the measurement respectively.
 
